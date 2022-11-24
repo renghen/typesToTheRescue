@@ -1,0 +1,323 @@
+2022.11.24 02:09:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/renghen/workspace/devcon/reveal.js/.metals/lsp.trace.json or /home/renghen/.cache/metals/lsp.trace.json
+2022.11.24 02:09:22 INFO  logging to file /home/renghen/workspace/devcon/reveal.js/.metals/metals.log
+2022.11.24 02:09:22 INFO  Started: Metals version 0.11.9 in workspace '/home/renghen/workspace/devcon/reveal.js' for client Visual Studio Code 1.73.1.
+2022.11.24 02:09:22 INFO  time: initialize in 0.81s
+2022.11.24 02:09:23 WARN  Build server is not auto-connectable.
+2022.11.24 02:09:23 WARN  no build tool detected in workspace '/home/renghen/workspace/devcon/reveal.js'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.11.24 02:09:23 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/046 - scalaStructure.scala
+2022.11.24 02:09:27 INFO  no build target found for /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/046 - scalaStructure.scala. Using presentation compiler with project's scala-library version: 3.0.2
+2022.11.24 02:09:28 INFO  time: code lens generation in 4.34s
+2022.11.24 02:12:07 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/046 - scalaStructure.scala
+2022.11.24 02:12:57 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/046 - scalaStructure.scala
+2022.11.24 02:13:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/046 - scalaStructure.scala
+2022.11.24 02:15:24 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/046 - scalaStructure.scala
+2022.11.24 02:33:24 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala2.scala
+2022.11.24 02:34:18 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala2.scala
+2022.11.24 02:34:21 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+Nov 24, 2022 2:34:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition <init> is defined in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala2.scala
+and also in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition <init> is defined in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala2.scala
+and also in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2427)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$1(SymDenotations.scala:2391)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2000)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2051)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:807)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:870)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1011)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:916)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:944)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:916)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1011)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:137)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:195)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:63)
+
+2022.11.24 02:38:23 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 02:38:36 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 02:38:51 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 02:38:55 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 02:39:05 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala2.scala
+2022.11.24 02:41:18 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Union.scala
+2022.11.24 02:42:01 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 02:42:56 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Union.scala
+2022.11.24 02:44:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Union.scala
+2022.11.24 02:44:13 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Union.scala
+2022.11.24 02:44:58 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:45:04 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+Nov 24, 2022 2:46:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition help is defined in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+and also in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Union.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition help is defined in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+and also in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Union.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2427)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$1(SymDenotations.scala:2391)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2000)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2051)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:807)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:870)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1011)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:916)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:916)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1011)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:137)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:195)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:86)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:86)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:86)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:63)
+
+2022.11.24 02:47:12 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:47:29 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+Nov 24, 2022 2:47:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2491)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$2(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$2(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1545)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1600)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1607)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1604)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1613)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1518)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.11.24 02:48:04 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:48:54 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:49:06 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:50:08 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:50:35 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 02:51:01 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 03:07:01 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3 copy.scala
+2022.11.24 03:07:12 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+2022.11.24 03:07:50 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-Intersection-scala3.scala
+2022.11.24 03:08:05 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:08:08 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala2.scala
+2022.11.24 03:08:09 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 03:08:14 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+2022.11.24 03:09:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:09:27 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-Intersection-scala3.scala
+2022.11.24 03:09:31 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3.scala
+Nov 24, 2022 3:09:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition <init> is defined in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+and also in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-Intersection-scala3.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition <init> is defined in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-sumType-scala3Intersection.scala
+and also in
+  /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/051-Intersection-scala3.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2427)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$1(SymDenotations.scala:2391)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2000)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2051)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:807)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:870)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1011)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:916)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:916)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1011)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:137)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:195)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:86)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:75)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:63)
+
+2022.11.24 03:10:12 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:10:41 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:11:07 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:11:12 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:11:25 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:11:29 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:11:42 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:11:42 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:12:05 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:12:26 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:12:32 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:12:35 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:12:43 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:16:51 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:18:54 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:18:56 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:19:37 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:21:37 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:25:04 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:26:21 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:27:17 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:27:52 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:28:01 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:28:27 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:28:44 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 03:29:42 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/054-GADT-scala3.scala
+2022.11.24 04:27:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:27:48 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:28:04 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:28:11 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:29:16 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:29:46 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:30:29 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:31:17 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:32:24 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:33:19 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:33:51 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:34:40 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:36:04 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:36:38 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/060-Refine.scala
+2022.11.24 04:44:33 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:44:43 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:44:59 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+Nov 24, 2022 4:45:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2491)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$2(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$2(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1596)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1607)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1604)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1613)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1518)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+Nov 24, 2022 4:45:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2491)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$2(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$2(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1596)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1607)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1604)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1512)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1514)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1613)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1518)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1643)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.11.24 04:45:48 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:48:20 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:49:05 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:49:37 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:49:48 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 04:50:44 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/070-Opaque.scala
+2022.11.24 05:10:22 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:10:31 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:10:57 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:11:21 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:12:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:12:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:12:09 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:12:35 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:12:43 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/080-Phantom.scala
+2022.11.24 05:25:47 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:25:52 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:26:08 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:26:20 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:27:34 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:29:34 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:31:15 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:31:37 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:32:41 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:34:32 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:35:08 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:35:30 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:36:00 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:36:01 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:36:07 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:36:51 WARN  no build target for: /home/renghen/workspace/devcon/reveal.js/slides/codeExamples/090-chimney.scala
+2022.11.24 05:59:41 INFO  shutting down Metals
